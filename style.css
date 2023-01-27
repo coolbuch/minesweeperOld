@@ -1,0 +1,95 @@
+td
+{
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #707070;
+  width: 40px;
+  height: 40px;
+  background-color: #BBBBBB;
+  border: solid 1px #707070;
+  text-align: center;
+  vertical-align: center;
+  margin: 4px;
+  font: Roboto;
+  cursor: pointer;
+  min-width: 40px;
+  min-height: 40px;
+}
+
+.td-hovered
+{
+  border: solid 1.5px #04BEEE80;
+}
+
+.td-opened
+{
+  background-color: white;
+}
+
+.td-mine
+{
+  background-color: #C42828;
+  background-image: url("bomb.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-clip: padding-box;
+  background-size: auto;
+}
+
+
+.td-mine-win
+{
+  background-color: green;
+  background-image: url("bomb.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-clip: padding-box;
+  background-size: auto;
+}
+
+.td-flag
+{
+  background-image: url("flag.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-clip: padding-box;
+  background-size: auto;
+}
+
+table
+{
+  margin: 0 auto;
+}
+
+
+
+.content
+{
+  width: 70%;
+}
+
+.input-fields
+{
+  position: absolute;
+  right: 0%;
+  width: 130px;
+  padding: 15px;
+  background-color: #A0A0A0;
+}
+
+.input-fields input
+{
+  width: 50px;
+}
+
+.input-fields input[name="bombs"]
+{
+  margin-top: 5px;
+  display: block;
+}
+
+button
+{
+
+  margin-top: 5px;
+}
